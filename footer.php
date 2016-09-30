@@ -13,16 +13,25 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'resto' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'resto' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'resto' ), 'resto', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
+	<footer class="site-footer">
+		<div class="row">
+			<div class="col-md-4 spacer"></div>
+				<div class="col-md-4 col-sm-12 icons">
+					<span class="fa fa-facebook-official"></span>
+					<span class="fa fa-twitter"></span>
+					<span class="fa fa-reddit"></span>
+					<span class="fa fa-google-plus-official"></span>
+					<span class="fa fa-info-circle"></span>
+				</div>
+			<div class="col-md-4 spacer"></div>
+		</div>
+		<p>Design by ArtStudioWorks</p>
+
+
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 </body>
 </html>

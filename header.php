@@ -14,10 +14,13 @@
 <head>
 <title>Alenia theme</title>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Alegreya|Gentium+Basic|Nobile" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 <link rel="profile" href="http://gmpg.org/xfn/11">
-<link rel="stylesheet" href="screen.css">
+<link rel="stylesheet" href="wp-content/themes/resto/static/screen.css">
 <!-- ładuje pliki z pluginów i inne -->
 <?php wp_head(); ?>
 </head>
