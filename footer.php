@@ -11,8 +11,6 @@
 
 ?>
 
-	</div><!-- #content -->
-
 	<footer class="site-footer">
 		<div class="row">
 			<div class="col-md-4 spacer"></div>
