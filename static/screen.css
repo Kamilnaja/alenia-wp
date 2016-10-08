@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,55 +24,55 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
-/* line 10, ../sass/screen.scss */
+
 html {
   font-size: 62.5%;
 }
 
-/* line 14, ../sass/screen.scss */
+
 .navbar-default {
   border: 0;
   background-color: #fff;
@@ -81,7 +81,7 @@ html {
   box-shadow: none;
 }
 
-/* line 21, ../sass/screen.scss */
+
 .site-title {
   font: bold 6rem "Alegreya", serif;
   display: block;
@@ -92,12 +92,12 @@ html {
   text-align: center;
 }
 
-/* line 33, ../sass/screen.scss */
+
 .site-title a {
   color: black;
 }
 
-/* line 36, ../sass/screen.scss */
+
 .col-md-12 h1.site-title a:active,
 .col-md-12 h1.site-title a:hover,
 .col-md-12 h1.site-title a:focus {
@@ -106,48 +106,48 @@ html {
   border-bottom: 0 solid transparent;
 }
 
-/* line 46, ../sass/screen.scss */
+
 .subheader {
   font: 1.4rem "Gentium Basic", serif;
   padding-bottom: 75px;
   text-align: center;
 }
 
-/* line 53, ../sass/screen.scss */
+
 .navbar-center {
   display: inline-block;
   text-align: center;
 }
 
-/* line 58, ../sass/screen.scss */
+
 .navbar-collapse {
   text-align: center;
 }
 
-/* line 61, ../sass/screen.scss */
+
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
   color: #c30;
 }
 
-/* line 65, ../sass/screen.scss */
+
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
   background-color: transparent;
 }
 
-/* line 71, ../sass/screen.scss */
+
 .navbar-nav li {
   text-align: center;
 }
-/* line 74, ../sass/screen.scss */
+
 .navbar-nav li a {
   font: bold 1.6rem "Gentium Basic", serif;
   text-transform: uppercase;
 }
 
-/* line 80, ../sass/screen.scss */
+
 .img-center {
   display: block;
   float: none;
@@ -155,31 +155,31 @@ html {
   margin-left: auto;
 }
 
-/* line 88, ../sass/screen.scss */
+
 .form {
   padding-top: 50px;
 }
-/* line 90, ../sass/screen.scss */
+
 .form hr {
   margin-bottom: 50px;
 }
-/* line 93, ../sass/screen.scss */
+
 .form label {
   font: 2rem "Gentium Basic", serif;
   margin-top: 20px;
   margin-bottom: 5px;
 }
-/* line 99, ../sass/screen.scss */
+
 .form input,
 .form textarea {
   width: 100%;
 }
-/* line 103, ../sass/screen.scss */
+
 .form input {
   font: 1.5rem calibri;
   padding: 10px;
 }
-/* line 108, ../sass/screen.scss */
+
 .form .send-button {
   font: 1.6rem "Nobile", sans-serif;
   margin-top: 20px;
@@ -189,19 +189,19 @@ html {
   background-color: #444;
 }
 
-/* line 122, ../sass/screen.scss */
+
 .intro img,
 .single-post img {
   width: 50%;
 }
-/* line 125, ../sass/screen.scss */
+
 .intro h2,
 .single-post h2 {
   font: 4.8rem "Gentium Basic", serif;
   text-align: center;
   text-transform: uppercase;
 }
-/* line 131, ../sass/screen.scss */
+
 .intro .big-picture,
 .single-post .big-picture {
   width: 100%;
@@ -212,24 +212,24 @@ html {
   background-position-y: -134px;
   background-size: cover;
 }
-/* line 141, ../sass/screen.scss */
+
 .intro .img-center,
 .single-post .img-center {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-/* line 145, ../sass/screen.scss */
+
 .intro .contact-info,
 .single-post .contact-info {
   font: 1.5rem "Nobile", sans-serif;
   line-height: 1.6;
 }
-/* line 148, ../sass/screen.scss */
+
 .intro .contact-info b,
 .single-post .contact-info b {
   font-weight: bold;
 }
-/* line 152, ../sass/screen.scss */
+
 .intro .slogan,
 .single-post .slogan {
   font: 2.4rem "Gentium Basic", serif;
@@ -239,45 +239,45 @@ html {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
 }
-/* line 163, ../sass/screen.scss */
+
 .intro .big-header,
 .single-post .big-header {
   padding-bottom: 50px;
 }
 
-/* line 168, ../sass/screen.scss */
+
 .blog-post {
   padding-top: 90px;
   padding-bottom: 70px;
   text-align: center;
   border-bottom: 1px solid lightgrey;
 }
-/* line 175, ../sass/screen.scss */
+
 .blog-post h2 {
   font: 3rem "Gentium Basic", serif;
   text-align: center;
   text-transform: uppercase;
 }
-/* line 181, ../sass/screen.scss */
+
 .blog-post h3 {
   font: 2rem "Nobile", sans-serif;
   margin-top: 10px;
   color: lightgrey;
 }
-/* line 188, ../sass/screen.scss */
+
 .blog-post .glyphicon,
 .blog-post .icon {
   font-size: 4.0rem;
   padding-bottom: 35px;
 }
-/* line 194, ../sass/screen.scss */
+
 .blog-post .post-lead, .blog-post .continue {
   font-family: "Nobile", sans-serif, Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
   line-height: 1.6;
   margin-top: 60px;
 }
-/* line 201, ../sass/screen.scss */
+
 .blog-post .continue {
   display: block;
   width: 145px;
@@ -287,19 +287,19 @@ html {
   padding-bottom: 10px;
   border-bottom: 1px dotted grey;
 }
-/* line 214, ../sass/screen.scss */
+
 .blog-post footer {
   font: 1.4rem "Nobile", sans-serif;
   margin-bottom: 40px;
   padding-top: 35px;
   color: lightgrey;
 }
-/* line 221, ../sass/screen.scss */
+
 .blog-post footer b {
   font-weight: bold;
   color: black;
 }
-/* line 227, ../sass/screen.scss */
+
 .blog-post .post-icon {
   width: auto;
   min-width: 200px;
@@ -311,115 +311,123 @@ html {
   background-size: cover;
 }
 
-/* line 239, ../sass/screen.scss */
+
 .change-post {
   font: 1.5rem "Nobile", sans-serif;
   padding-top: 80px;
 }
-/* line 243, ../sass/screen.scss */
+
 .change-post a {
   display: inline-block;
   color: black;
 }
-/* line 248, ../sass/screen.scss */
+
 .change-post a:active,
 .change-post a:hover {
   text-decoration: none;
 }
-/* line 252, ../sass/screen.scss */
+
 .change-post a:first-child {
   float: left;
 }
-/* line 255, ../sass/screen.scss */
+
 .change-post a:nth-child(2) {
   float: right;
 }
 
-/* line 259, ../sass/screen.scss */
+
 footer.site-footer {
   padding-top: 100px;
   padding-bottom: 45px;
 }
-/* line 262, ../sass/screen.scss */
+
 footer.site-footer p {
   font: 1.8rem "Gentium Basic", serif;
   text-align: center;
 }
-/* line 267, ../sass/screen.scss */
+
 footer.site-footer .spacer {
   padding-bottom: 30px;
   border-top: 1px solid grey;
 }
-/* line 272, ../sass/screen.scss */
+
 footer.site-footer .icons {
   padding-bottom: 40px;
   text-align: center;
 }
-/* line 277, ../sass/screen.scss */
+
 footer.site-footer .icons > span {
   font-size: 2.0rem;
   display: inline-block;
   margin-right: 10px;
   margin-left: 10px;
 }
-/* line 285, ../sass/screen.scss */
+
 footer.site-footer .fa:hover {
   color: cornflowerblue;
 }
+.widget-area {
+  font-family: "Nobile", sans-serif, Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin: 0 auto;
+  display: block;
+  float: none;
+}
 
 @media (min-width: 768px) {
-  /* line 291, ../sass/screen.scss */
+  
   .navbar-nav {
     float: none;
     margin: 0;
   }
 }
 @media (max-width: 770px) {
-  /* line 298, ../sass/screen.scss */
+  
   .navbar-default .col-md-12 {
     margin-top: 0;
     padding-top: 0;
     text-align: center;
   }
 
-  /* line 304, ../sass/screen.scss */
+  
   .site-title {
     display: inline-block;
     margin-top: -47px;
   }
 
-  /* line 309, ../sass/screen.scss */
+  
   .subheader {
     display: block;
     padding-bottom: 0;
   }
 
-  /* line 314, ../sass/screen.scss */
+  
   .navbar-header button {
     margin-top: 20px;
     margin-bottom: 0;
   }
 
-  /* line 318, ../sass/screen.scss */
+  
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
     border-color: transparent;
   }
 
-  /* line 324, ../sass/screen.scss */
+  
   .intro img,
   .single-post img {
     width: 100%;
   }
 }
 @media (max-width: 1100px) {
-  /* line 330, ../sass/screen.scss */
+  
   footer .row .spacer {
     display: none;
     border-top: none;
   }
 
-  /* line 335, ../sass/screen.scss */
+  
   footer {
     padding-top: 50px;
   }
