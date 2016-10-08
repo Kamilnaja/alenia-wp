@@ -9,7 +9,8 @@
  * @package resto
  */
 
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
 <title>Alenia theme</title>
@@ -20,7 +21,7 @@
 <link href="https://fonts.googleapis.com/css?family=Alegreya|Gentium+Basic|Nobile" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 <link rel="profile" href="http://gmpg.org/xfn/11">
-<link rel="stylesheet" href="wp-content/themes/resto/static/screen.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/static/screen.css">
 <!-- ładuje pliki z pluginów i inne -->
 <?php wp_head(); ?>
 </head>

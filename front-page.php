@@ -1,7 +1,4 @@
-<?php
-
-
-get_header(); ?>
+<?php get_header(); ?>
 	<div class="container">
 		<section class="row intro">
 			<div class="col-md-12">
