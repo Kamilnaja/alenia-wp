@@ -3,25 +3,96 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   font: inherit;
   font-size: 100%;
+
+  margin: 0;
+  padding: 0;
+
   vertical-align: baseline;
+
+  border: 0;
 }
 
 
@@ -30,30 +101,38 @@ html {
 }
 
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
 
 table {
-  border-collapse: collapse;
   border-spacing: 0;
+  border-collapse: collapse;
 }
 
 
-caption, th, td {
-  text-align: left;
+caption,
+th,
+td {
   font-weight: normal;
+
+  text-align: left;
   vertical-align: middle;
 }
 
 
-q, blockquote {
+q,
+blockquote {
   quotes: none;
 }
 
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+  content: '';
   content: none;
 }
 
@@ -63,7 +142,19 @@ a img {
 }
 
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
   display: block;
 }
 
@@ -78,17 +169,20 @@ html {
   background-color: #fff;
   background-image: none;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
 }
 
 
 .site-title {
-  font: bold 6rem "Alegreya", serif;
+  font: bold 6rem 'Alegreya', serif;
+
   display: block;
   float: none;
+
   height: inherit;
   margin: 0 auto;
   margin-top: 70px;
+
   text-align: center;
 }
 
@@ -102,20 +196,24 @@ html {
 .col-md-12 h1.site-title a:hover,
 .col-md-12 h1.site-title a:focus {
   text-decoration: none;
+
   color: darkgrey;
   border-bottom: 0 solid transparent;
 }
 
 
 .subheader {
-  font: 1.4rem "Gentium Basic", serif;
+  font: 1.4rem 'Gentium Basic', serif;
+
   padding-bottom: 75px;
+
   text-align: center;
 }
 
 
 .navbar-center {
   display: inline-block;
+
   text-align: center;
 }
 
@@ -143,7 +241,8 @@ html {
 }
 
 .navbar-nav li a {
-  font: bold 1.6rem "Gentium Basic", serif;
+  font: bold 1.6rem 'Gentium Basic', serif;
+
   text-transform: uppercase;
 }
 
@@ -151,6 +250,7 @@ html {
 .img-center {
   display: block;
   float: none;
+
   margin-right: auto;
   margin-left: auto;
 }
@@ -165,7 +265,8 @@ html {
 }
 
 .form label {
-  font: 2rem "Gentium Basic", serif;
+  font: 2rem 'Gentium Basic', serif;
+
   margin-top: 20px;
   margin-bottom: 5px;
 }
@@ -177,27 +278,27 @@ html {
 
 .form input {
   font: 1.5rem calibri;
+
   padding: 10px;
 }
 
 .form .send-button {
-  font: 1.6rem "Nobile", sans-serif;
+  font: 1.6rem 'Nobile', sans-serif;
+
   margin-top: 20px;
   padding: 8px 20px;
+
   color: white;
   border: none;
   background-color: #444;
 }
 
 
-.intro img,
-.single-post img {
-  width: 50%;
-}
 
-.intro h2,
-.single-post h2 {
-  font: 4.8rem "Gentium Basic", serif;
+
+.intro h2, {
+  font: 4.8rem 'Gentium Basic', serif;
+
   text-align: center;
   text-transform: uppercase;
 }
@@ -207,7 +308,8 @@ html {
   width: 100%;
   height: 350px;
   margin: 50px auto;
-  background-image: url("../img/bee.jpg");
+
+  background-image: url('../img/bee.jpg');
   background-repeat: no-repeat;
   background-position-y: -134px;
   background-size: cover;
@@ -221,7 +323,7 @@ html {
 
 .intro .contact-info,
 .single-post .contact-info {
-  font: 1.5rem "Nobile", sans-serif;
+  font: 1.5rem 'Nobile', sans-serif;
   line-height: 1.6;
 }
 
@@ -232,10 +334,13 @@ html {
 
 .intro .slogan,
 .single-post .slogan {
-  font: 2.4rem "Gentium Basic", serif;
+  font: 2.4rem 'Gentium Basic', serif;
+
   padding-top: 15px;
   padding-bottom: 15px;
+
   text-align: center;
+
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
 }
@@ -249,54 +354,67 @@ html {
 .blog-post {
   padding-top: 90px;
   padding-bottom: 70px;
+
   text-align: center;
+
   border-bottom: 1px solid lightgrey;
 }
 
 .blog-post h2 {
-  font: 3rem "Gentium Basic", serif;
+  font: 3rem 'Gentium Basic', serif;
+
   text-align: center;
   text-transform: uppercase;
 }
 
 .blog-post h3 {
-  font: 2rem "Nobile", sans-serif;
+  font: 2rem 'Nobile', sans-serif;
+
   margin-top: 10px;
+
   color: lightgrey;
 }
 
 .blog-post .glyphicon,
 .blog-post .icon {
   font-size: 4.0rem;
+
   padding-bottom: 35px;
 }
 
-.blog-post .post-lead, .blog-post .continue {
-  font-family: "Nobile", sans-serif, Helvetica, Arial, sans-serif;
+.blog-post .post-lead,
+.blog-post .continue {
+  font-family: 'Nobile', sans-serif, Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
   line-height: 1.6;
+
   margin-top: 60px;
 }
 
 .blog-post .continue {
   display: block;
+
   width: 145px;
   margin-top: 36px;
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 10px;
+
   border-bottom: 1px dotted grey;
 }
 
 .blog-post footer {
-  font: 1.4rem "Nobile", sans-serif;
+  font: 1.4rem 'Nobile', sans-serif;
+
   margin-bottom: 40px;
   padding-top: 35px;
+
   color: lightgrey;
 }
 
 .blog-post footer b {
   font-weight: bold;
+
   color: black;
 }
 
@@ -307,18 +425,21 @@ html {
   margin-top: 60px;
   margin-right: auto;
   margin-left: auto;
-  background-image: url("../img/bg.jpg");
+
+  background-image: url('../img/bg.jpg');
   background-size: cover;
 }
 
 
 .change-post {
-  font: 1.5rem "Nobile", sans-serif;
+  font: 1.5rem 'Nobile', sans-serif;
+
   padding-top: 80px;
 }
 
 .change-post a {
   display: inline-block;
+
   color: black;
 }
 
@@ -342,23 +463,28 @@ footer.site-footer {
 }
 
 footer.site-footer p {
-  font: 1.8rem "Gentium Basic", serif;
+  font: 1.8rem 'Gentium Basic', serif;
+
   text-align: center;
 }
 
 footer.site-footer .spacer {
   padding-bottom: 30px;
+
   border-top: 1px solid grey;
 }
 
 footer.site-footer .icons {
   padding-bottom: 40px;
+
   text-align: center;
 }
 
 footer.site-footer .icons > span {
   font-size: 2.0rem;
+
   display: inline-block;
+
   margin-right: 10px;
   margin-left: 10px;
 }
@@ -367,67 +493,99 @@ footer.site-footer .fa:hover {
   color: cornflowerblue;
 }
 .widget-area {
-  font-family: "Nobile", sans-serif, Helvetica, Arial, sans-serif;
+  font-family: 'Nobile', sans-serif, Helvetica, Arial, sans-serif;
   font-size: 1.4rem;
   line-height: 1.4;
-  margin: 0 auto;
+
   display: block;
   float: none;
+
+  margin: 0 auto;
+}
+.entry-header .entry-title {
+  font: 2.4rem 'Gentium Basic', serif;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  text-align: center;
+
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.entry-meta,
+.entry-content p,
+.comment-content p,
+.entry-footer p,
+.comments-title,
+.screen-reader-text,
+.fn,
+.comment-metadata,
+.reply,
+.comment-respond,
+.post-edit-link,
+.says {
+  font-family: 'Nobile', sans-serif, Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
 }
 
+/*media queries =============================================================================================*/
 @media (min-width: 768px) {
-  
   .navbar-nav {
     float: none;
+
     margin: 0;
   }
 }
 @media (max-width: 770px) {
-  
   .navbar-default .col-md-12 {
     margin-top: 0;
     padding-top: 0;
+
     text-align: center;
   }
 
-  
+
   .site-title {
     display: inline-block;
+
     margin-top: -47px;
   }
 
-  
+
   .subheader {
     display: block;
+
     padding-bottom: 0;
   }
 
-  
+
   .navbar-header button {
     margin-top: 20px;
     margin-bottom: 0;
   }
 
-  
+
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
     border-color: transparent;
   }
 
-  
+
   .intro img,
   .single-post img {
     width: 100%;
   }
 }
 @media (max-width: 1100px) {
-  
   footer .row .spacer {
     display: none;
+
     border-top: none;
   }
 
-  
+
   footer {
     padding-top: 50px;
   }
