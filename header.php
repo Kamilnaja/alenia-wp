@@ -1,3 +1,5 @@
+
+<!DOCTYPE html>
 <?php
 /**
  * The header for our theme.
@@ -10,10 +12,9 @@
  */
 
 ?>
-<!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html lang="pl">
 <head>
-<title>Alenia theme</title>
+
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -65,7 +66,7 @@
 		</div>
 
 	</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+
 
 
 

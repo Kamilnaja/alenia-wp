@@ -502,7 +502,8 @@ footer.site-footer .fa:hover {
 
   margin: 0 auto;
 }
-.entry-header .entry-title {
+.entry-header .entry-title,
+.page-title {
   font: 2.4rem 'Gentium Basic', serif;
 
   padding-top: 15px;
@@ -524,12 +525,40 @@ footer.site-footer .fa:hover {
 .reply,
 .comment-respond,
 .post-edit-link,
+.page-content,
 .says {
   font-family: 'Nobile', sans-serif, Helvetica, Arial, sans-serif;
   font-size: 1.2rem;
   line-height: 1.6;
 }
+.entry-content {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 
+  border-bottom: 1px solid black;
+}
+.entry-content p,
+.entry-content div {
+  font-family: 'Nobile', sans-serif, Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+.posted-on {
+  display: block;
+
+  margin-top: 40px;
+}
+.screen-reader-text {
+  display: block;
+  margin-top: 20px;
+}
+.aligncenter {
+  display: block;
+  margin: 20px auto;
+  float: none;
+
+}
 /*media queries =============================================================================================*/
 @media (min-width: 768px) {
   .navbar-nav {

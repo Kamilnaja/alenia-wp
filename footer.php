@@ -11,22 +11,22 @@
 
 ?>
 
-	<footer class="site-footer">
-		<div class="row">
-			<div class="col-md-4 spacer"></div>
-				<div class="col-md-4 col-sm-12 icons">
-					<span class="fa fa-facebook-official"></span>
-					<span class="fa fa-twitter"></span>
-					<span class="fa fa-reddit"></span>
-					<span class="fa fa-google-plus-official"></span>
-					<span class="fa fa-info-circle"></span>
-				</div>
-			<div class="col-md-4 spacer"></div>
+<footer class="container site-footer">
+	<div class="row">
+		<div class="col-md-4 spacer"></div>
+		<div class="col-md-4 col-sm-12 icons">
+			<span class="fa fa-facebook-official"></span>
+			<span class="fa fa-twitter"></span>
+			<span class="fa fa-reddit"></span>
+			<span class="fa fa-google-plus-official"></span>
+			<span class="fa fa-info-circle"></span>
 		</div>
-		<p>Design by ArtStudioWorks</p>
-
-
-	</footer><!-- #colophon -->
+		<div class="col-md-4 spacer"></div>
+		<div class="row">
+			<div class="col-md-12 text-center"><p>Design by ArtStudioWorks</p></div>
+		</div>
+	</div>
+</footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
