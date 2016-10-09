@@ -1,9 +1,9 @@
 
 <?php get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main container" role="main">
-			<div class="container">
+	<div id="primary" class="container content-area">
+		<div class="row">
+			<main id="main" class="site-main container" role="main">
 				<div id="post-content">
 					<?php
 					while ( have_posts() ) : the_post();
@@ -24,9 +24,9 @@
 				<?php 
 					get_sidebar();
 			?>
-				</div>
-			</div>
-		</main><!-- #main -->
+
+		</div>
+			</main><!-- #main -->
 	</div><!-- #primary -->
 
 <?php

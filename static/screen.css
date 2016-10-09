@@ -283,7 +283,7 @@ html {
 }
 
 .form .send-button {
-  font: 1.6rem 'Nobile', sans-serif;
+  font: 1.6rem 'roboto', sans-serif;
 
   margin-top: 20px;
   padding: 8px 20px;
@@ -323,7 +323,7 @@ html {
 
 .intro .contact-info,
 .single-post .contact-info {
-  font: 1.5rem 'Nobile', sans-serif;
+  font: 1.5rem 'roboto', sans-serif;
   line-height: 1.6;
 }
 
@@ -368,7 +368,7 @@ html {
 }
 
 .blog-post h3 {
-  font: 2rem 'Nobile', sans-serif;
+  font: 2rem 'roboto', sans-serif;
 
   margin-top: 10px;
 
@@ -384,7 +384,7 @@ html {
 
 .blog-post .post-lead,
 .blog-post .continue {
-  font-family: 'Nobile', sans-serif, Helvetica, Arial, sans-serif;
+  font-family: 'roboto', sans-serif, Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
   line-height: 1.6;
 
@@ -404,7 +404,7 @@ html {
 }
 
 .blog-post footer {
-  font: 1.4rem 'Nobile', sans-serif;
+  font: 1.4rem 'roboto', sans-serif;
 
   margin-bottom: 40px;
   padding-top: 35px;
@@ -432,7 +432,7 @@ html {
 
 
 .change-post {
-  font: 1.5rem 'Nobile', sans-serif;
+  font: 1.5rem 'roboto', sans-serif;
 
   padding-top: 80px;
 }
@@ -493,7 +493,7 @@ footer.site-footer .fa:hover {
   color: cornflowerblue;
 }
 .widget-area {
-  font-family: 'Nobile', sans-serif, Helvetica, Arial, sans-serif;
+  font-family: 'roboto', sans-serif, Helvetica, Arial, sans-serif;
   font-size: 1.4rem;
   line-height: 1.4;
 
@@ -513,6 +513,7 @@ footer.site-footer .fa:hover {
 
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
+  text-transform: uppercase;
 }
 .entry-meta,
 .entry-content p,
@@ -527,7 +528,7 @@ footer.site-footer .fa:hover {
 .post-edit-link,
 .page-content,
 .says {
-  font-family: 'Nobile', sans-serif, Helvetica, Arial, sans-serif;
+  font-family: 'roboto', sans-serif, Helvetica, Arial, sans-serif;
   font-size: 1.2rem;
   line-height: 1.6;
 }
@@ -540,7 +541,7 @@ footer.site-footer .fa:hover {
 }
 .entry-content p,
 .entry-content div {
-  font-family: 'Nobile', sans-serif, Helvetica, Arial, sans-serif;
+  font-family: 'roboto', sans-serif, Helvetica, Arial, sans-serif;
   font-size: 1.4rem;
   line-height: 1.6;
 }
@@ -602,10 +603,10 @@ footer.site-footer .fa:hover {
   }
 
 
-  .intro img,
+/*  .intro img,
   .single-post img {
     width: 100%;
-  }
+  }*/
 }
 @media (max-width: 1100px) {
   footer .row .spacer {
@@ -618,4 +619,8 @@ footer.site-footer .fa:hover {
   footer {
     padding-top: 50px;
   }
+}
+@media (min-width: 1200px){
+.container {
+    width: 960px;
 }
