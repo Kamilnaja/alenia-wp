@@ -221,10 +221,14 @@ html {
 .navbar-collapse {
   text-align: center;
 }
+.menu li a:link,
+.menu li a:active {
+  color: grey;
+  text-decoration: none;
+}
 
-
-.navbar-default .navbar-nav > li > a:focus,
-.navbar-default .navbar-nav > li > a:hover {
+.menu  > li > a:focus,
+.menu > li > a:hover {
   color: #c30;
 }
 
@@ -236,11 +240,14 @@ html {
 }
 
 
-.navbar-nav li {
+.menu li {
   text-align: center;
+  display: inline;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-.navbar-nav li a {
+.menu li a {
   font: bold 1.6rem 'Gentium Basic', serif;
 
   text-transform: uppercase;
@@ -292,9 +299,6 @@ html {
   border: none;
   background-color: #444;
 }
-
-
-
 
 .intro h2, {
   font: 4.8rem 'Gentium Basic', serif;
@@ -562,7 +566,7 @@ footer.site-footer .fa:hover {
 }
 /*media queries =============================================================================================*/
 @media (min-width: 768px) {
-  .navbar-nav {
+  .menu {
     float: none;
 
     margin: 0;

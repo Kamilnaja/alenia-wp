@@ -31,6 +31,7 @@
 <div id="page" class="site">
 
 	<nav class="navbar navbar-default">
+
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -44,22 +45,23 @@
 			<div class="row">
 				<div class="col-md-12">
 					<h1 class="site-title"><a href="#">Allenia</a></h1>
-					<h2 class="subheader">you always want to read it</h2>
+					<h2 class="subheader">you always want to screw it</h2>
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="col-md-12">
 					<div id="navbar" class="navbar-collapse collapse">
-						<ul class="nav navbar-nav navbar-center">
-							<li><a href="#">Home</a></li>
+					
+
+						<?php wp_nav_menu(array( 'theme_location' => 'primary', 'menu_id' => 'primary_menu') ); ?>
+<!-- 							<li><a href="#">Home</a></li>
 							<li><a href="../navbar-fixed-top/">About</a></li>
 							<li><a href="portfolio.html">Portfolio</a></li>
 							<li><a href="../navbar-fixed-top/">Events</a></li>
 							<li><a href="contact.html">Contact</a></li>
 							<li><a href="../navbar-fixed-top/">Search</a></li>
-							<li><a href="about-single.html">About Single</a></li>
-						</ul>
+							<li><a href="about-single.html">About Single</a></li> -->
 					</div>
 				</div>
 			</div>
